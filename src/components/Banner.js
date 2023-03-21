@@ -56,7 +56,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Cristiano, `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "Team Leder" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Cristiano, `} <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Web Developer", "Web Designer", "Team Leder" ]'><span className="wrap">{text}</span></span></h1>
                 <p>My fullname is Cristiano Alchaar da Silva. I am a front-end web developer and mobile developer. I can make web applications or apps, aligned with the main technologies used in the market.
 
                 I'm always looking to learn new technologies, and now im looking to learn everything i can about javascript environment.
