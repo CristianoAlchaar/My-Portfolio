@@ -412,17 +412,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project .nav.nav-pills .nav-link.active {
     border: 1px solid rgba(255, 255, 255, 1);
 }
+
 .nav-link#projects-tabs-tab-first {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 55px 0px 0px 55px;
+  cursor: pointer;
 }
 .nav-link#projects-tabs-tab-second {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  cursor: pointer;
 }
 .nav-link#projects-tabs-tab-third {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
+  cursor: pointer;
 }
 .proj-imgbx {
   position: relative;
@@ -619,8 +623,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 18px;
 }
 .footer img {
-  width: 26%;
+  width: 200px;
 }
+
+@media only screen and (max-width: 575px) { 
+  .footer img {
+    margin: 0 auto ;
+    display: flex;
+    align-items: center;
+  }
+}
+
 .footer p {
   font-weight: 400;
   font-size: 14px;
