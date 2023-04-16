@@ -2,12 +2,14 @@ import projToDoList from "../assets/img/projectsImg/reactNative/ToDoListAppSmall
 import projDailyDiet from "../assets/img/projectsImg/reactNative/DailyDietSmall.jpg"
 import projIgniteTeams from "../assets/img/projectsImg/reactNative/IgniteTeams.jpg"
 import projIgniteQuiz from "../assets/img/projectsImg/reactNative/IgniteQuiz.jpg"
+import projIgniteMarketSpace from "../assets/img/projectsImg/reactNative/IgniteMarketSpace.jpg"
+import projIgniteShoes from "../assets/img/projectsImg/reactNative/IgniteShoeApp.jpg"
 
 export const projectsReactNative = [
     {
-      description: "To Do List App",
-      imgUrl: projToDoList,
-      link: 'https://github.com/CristianoAlchaar/ignite-react-native-1-to-do-list',
+        description: "Ignite Marketspace",
+        imgUrl: projIgniteMarketSpace,
+        link: 'https://github.com/CristianoAlchaar/ignite-react-native-3-marketspace',
     },
     {
         description: "Daily Diet App",
@@ -15,13 +17,23 @@ export const projectsReactNative = [
         link: 'https://github.com/CristianoAlchaar/ignite-react-native-2-daily-diet',
     },
     {
+        description: "Ignite Quiz",
+        imgUrl: projIgniteQuiz,
+        link: 'https://github.com/CristianoAlchaar/ignite-react-native-ignite-quiz',
+    },
+    {
         description: "Ignite Teams",
         imgUrl: projIgniteTeams,
         link: 'https://github.com/CristianoAlchaar/ignite-react-native-ignite-teams',
     },
     {
-        description: "Ignite Quiz",
-        imgUrl: projIgniteQuiz,
-        link: 'https://github.com/CristianoAlchaar/ignite-react-native-ignite-quiz',
+        description: "Ignite Shoes",
+        imgUrl: projIgniteShoes,
+        link: 'https://github.com/CristianoAlchaar/Ignite-Shoes-App',
+    },
+    {
+      description: "To Do List App",
+      imgUrl: projToDoList,
+      link: 'https://github.com/CristianoAlchaar/ignite-react-native-1-to-do-list',
     },
   ];

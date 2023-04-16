@@ -12,9 +12,9 @@ export const projectsReactJs = [
       link: 'https://github.com/CristianoAlchaar/DesignSystem-Ignite',
     },
     {
-        description: "To Do List",
-        imgUrl: toDoImg,
-        link: 'https://github.com/CristianoAlchaar/ignite-reactjs-1-To-do',
+        description: "Ignite Shop",
+        imgUrl: IgniteShopImg,
+        link: 'https://github.com/CristianoAlchaar/ignite-reactjs-4-ignite-shop',
     },
     {
         description: "Coffee Delivery",
@@ -27,11 +27,6 @@ export const projectsReactJs = [
         link: 'https://github.com/CristianoAlchaar/ignite-reactjs-3-github-blog',
     },
     {
-        description: "Ignite Shop",
-        imgUrl: IgniteShopImg,
-        link: 'https://github.com/CristianoAlchaar/ignite-reactjs-4-ignite-shop',
-    },
-    {
         description: "Ignite Timer",
         imgUrl: IgniteTimerImg,
         link: 'https://github.com/CristianoAlchaar/ignite-reactjs-timer',
@@ -41,4 +36,9 @@ export const projectsReactJs = [
         imgUrl: DTMoneyImg,
         link: 'https://github.com/CristianoAlchaar/ignite-reactjs-dt-money',
     },
+    {
+        description: "To Do List",
+        imgUrl: toDoImg,
+        link: 'https://github.com/CristianoAlchaar/ignite-reactjs-1-To-do',
+    }, 
   ];
