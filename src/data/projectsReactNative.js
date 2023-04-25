@@ -4,12 +4,18 @@ import projIgniteTeams from "../assets/img/projectsImg/reactNative/IgniteTeams.j
 import projIgniteQuiz from "../assets/img/projectsImg/reactNative/IgniteQuiz.jpg"
 import projIgniteMarketSpace from "../assets/img/projectsImg/reactNative/IgniteMarketSpace.jpg"
 import projIgniteShoes from "../assets/img/projectsImg/reactNative/IgniteShoeApp.jpg"
+import projIgniteGym from "../assets/img/projectsImg/reactNative/IgniteGymApp.jpg"
 
 export const projectsReactNative = [
     {
         description: "Ignite Marketspace",
         imgUrl: projIgniteMarketSpace,
         link: 'https://github.com/CristianoAlchaar/ignite-react-native-3-marketspace',
+    },
+    {
+        description: "IgniteGym",
+        imgUrl: projIgniteGym,
+        link: 'https://github.com/CristianoAlchaar/ignite-react-native-4-ignite-gym',
     },
     {
         description: "Daily Diet App",
